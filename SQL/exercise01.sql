@@ -55,5 +55,5 @@ INNER JOIN (
     FROM Sales
     GROUP BY product_id
 ) fy
-    ON s.product_id = fy.product_id
-   AND s.year = fy.first_year;
+    ON  s.product_id = fy.product_id
+    AND s.year = fy.first_year;
