@@ -70,4 +70,4 @@ FROM (
     FROM MyNumbers
     GROUP BY num
     HAVING COUNT(*) = 1
-) t;
+) t
